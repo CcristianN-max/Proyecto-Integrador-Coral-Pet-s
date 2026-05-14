@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coral Pet's</title>
+
+<!-- Link para traer las propiedades de CSS -->
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+<body>
+
+<!-- Titulo principal -->
+    <header>
+    <section class="logo">
+    <h2>Coral Pet's</h2>
+    </section>
+
+<!-- Formulario de buscar producto del encabezado -->
+        <form>
+            <label for="buscar">Buscar:</label>
+            <input type="text" placeholder="Buscar productos">
+            <button type="submit">Buscar</button>
+        </form>
+
+<!-- Links del encabezado -->
+        <section class="parte-links">
+        <a class="header-links" href="...">Carrito</a>
+        <a class="header-links" href="...">Cuenta</a>
+        </section>
+    </header>
+    
+<!-- Menú principal de categorías -->
+    <section class="menu-principal">
+
+        <ul>
+            <li><a href="#">Alimentos</a></li>
+            <li><a href="#">Juguetes y accesorios</a></li>
+            <li><a href="#">Belleza e higiene</a></li>
+            <li><a href="#">Medicamentos</a></li>
+        </ul>
+
+    </section>
+
+<!-- Contenido principal-->
+<main>
+
+    <section class="formulario-contacto">
+
+        <h2>Contáctanos</h2>
+
+        <p>
+            Déjanos tus datos y nos comunicaremos contigo lo más pronto posible.
+        </p>
+
+        <!-- Formulario de Registro -->
+        <form>
+
+            <label for="nombre">Nombre y Apellido</label>
+            <br>
+            <input type="text" id="nombre" required>
+            <br><br>
+
+            <label for="correo">Correo</label>
+            <br>
+            <input type="email" id="correo" required>
+            <br><br>
+
+            <label for="telefono">Teléfono</label>
+            <br>
+            <input type="tel" id="telefono" required>
+            <br><br>
+
+            <label for="mensaje">Mensaje</label>
+            <br>
+            <textarea id="mensaje"></textarea>
+            <br><br>
+
+                <div class="contenedor-botones">
+
+                    <button class="boton-borrar" type="reset">Borrar</button>
+
+                    <button class="boton-enviar" type="submit">Enviar</button>
+                </div>
+
+        </form>
+
+    </section>
+
+</main>
+
+<!-- Pie de página -->
+<section>
+    <footer class="pie-pagina">
+
+        <h2>Coral Pet's</h2>
+
+        <section class="footer-links">
+            <a href="principal.html">Inicio</a>
+            <a href="#">Tienda</a>
+            <a href="#">Nosotros</a>
+            <a href="contacto.html">Contacto</a>
+        </section>
+
+        <section class="footer-contacto">
+            <p>Medellín - Colombia</p>
+            <p>WhatsApp: 305 000 0000</p>
+            <p>Instagram: @coralpets</p>
+        </section>
+
+    </footer>
+</section>
+</body>
+</html>

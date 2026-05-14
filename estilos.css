@@ -1,0 +1,247 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0%;
+}
+
+/* Cuadro del encabezado principal */
+header{
+    background-color: lightblue;
+    height: 80px;
+    padding: 15px;
+    position: relative;
+}
+
+.logo h2{
+    font-size: 55px;
+    margin: 0;
+    position: absolute;
+    left: 20px;
+    top: 25px;
+}
+
+
+/* Formulario de buscar */
+header form{
+    margin-bottom: 10px;
+    position: absolute;
+    right: 20px;
+    top: 70px;
+}
+
+/* Parte de los links */
+.parte-links{
+    position: absolute;
+    right: 20px;
+    top: 20px;
+}
+
+/* Los links de cuenta y carrito */
+.header-links{
+    text-decoration: none;
+    margin-left: 20px;
+}
+
+/* Menú principal */
+.menu-principal{
+    background-color: darkblue;
+    padding: 1px;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+}
+
+/* Se agrega para quitar los puntos de la viñetas de la lista */
+.menu-principal ul{
+    list-style: none;
+    margin: 5px;
+}
+
+/* Se agrego para que queden en linea horizontal */
+.menu-principal li{
+    display: inline-block;
+    margin-right: 100px;
+}
+
+/* Estilo de los links de la categorias*/
+.menu-principal a{
+    color: white;
+    text-decoration: none;
+}
+
+/* Propiedades del banner */
+.banner{
+    background-color: lightyellow;
+    padding: 20px;
+    text-align: center;
+}
+
+.banner h1{
+    font-size: 60px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+
+.banner p{
+    margin-bottom: 15px;
+}
+
+.banner img{
+    border-radius: 15px;
+}
+
+/* Apartado de promociones */
+.promociones{
+    background-color: lightgray;
+    padding: 20px;
+    text-align: center;
+}
+
+.promociones h2{
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+.promo{
+    background-color: white;
+    width: 280px;
+    height: 130px;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px;
+    border: 2px solid black;
+    vertical-align: top;
+    box-sizing: border-box;
+    border-radius: 10px;
+    box-shadow: 2px 2px gray;
+}
+
+/* Productos destacados */
+.productos-destacados{
+    background-color: white;
+    padding: 25px;
+    text-align: center;
+}
+
+.productos-destacados h2{
+    margin-bottom: 20px;
+}
+
+.producto-destacado{
+    width: 180px;
+    height: 320px;
+    border: 2px solid black;
+    display: inline-block;
+    margin: 10px;
+    padding: 10px;
+    vertical-align: top;
+    border-radius: 10px;
+    box-shadow: 2px 2px gray;
+    box-sizing: border-box;
+}
+
+.producto-destacado img{
+    border-radius: 10px;
+    margin-bottom: 10px;
+    width: 150px;
+    height: 180px;
+}
+
+/* Pie de página */
+
+.pie-pagina{
+    background-color: lightblue;
+    padding: 25px;
+    margin-top: 10px;
+    text-align: center;
+}
+
+.pie-pagina h2{
+    margin-bottom: 15px;
+}
+
+.footer-links{
+    margin-bottom: 15px;
+    margin-top: 30px;
+}
+
+.footer-links a{
+    text-decoration: none;
+    color: black;
+    margin: 18px;
+    font-weight: bold;
+}
+
+.footer-contacto p{
+    margin: 5px;
+}
+
+/* Pagina de contacto */
+/* Formulario de contacto */
+.formulario-contacto{
+    width: 500px;
+    margin: 2px auto 40px auto;
+    padding: 20px;
+    border: 2px solid lightgray;
+    border-radius: 10px;
+    background-color: whitesmoke;
+}
+
+/* Título del formulario */
+.formulario-contacto h2{
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+/* Texto descriptivo */
+.formulario-contacto p{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Campos del formulario */
+.formulario-contacto input {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+}
+
+/* Estilos del area de mensaje */
+.formulario-contacto textarea {
+    width: 95%;
+    padding: 10px;
+    border: 1px solid gray;
+    border-radius: 5px;
+    height: 120px;
+}
+
+/* Contenedor de botones */
+.contenedor-botones{
+    text-align: center;
+}
+
+/*Contenedor de botones */
+.contenedor-botones{
+    text-align: center;
+}
+
+/* Estilo de botones generales*/
+.formulario-contacto button{
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    display: inline-block;
+    margin: 5px;
+}
+
+/* Botón enviar */
+.boton-enviar{
+    background-color: darkblue;
+}
+
+/* Botón borrar */
+.boton-borrar{
+    background-color: crimson;
+}
