@@ -1,25 +1,28 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
-    margin: 0%;
-    padding: 0%;
+    margin: 0;
+    padding: 0;
+    background-color: #FFF8E7;
+    color: #333333;
 }
 
 /* Cuadro del encabezado principal */
 header{
-    background-color: lightblue;
-    height: 80px;
+    background-color: #2D6A8E;
+    color: white;
+    height: 100px;
     padding: 15px;
     position: relative;
+    box-shadow: 0px 2px 8px rgba(0,0,0,0.2);
 }
 
-.logo h2{
-    font-size: 55px;
-    margin: 0;
+header img{
+    height: 250px;
+    width: auto;
     position: absolute;
-    left: 20px;
-    top: 25px;
+    left: -30px;
+    top: -50px;
 }
-
 
 /* Formulario de buscar */
 header form{
@@ -38,13 +41,14 @@ header form{
 
 /* Los links de cuenta y carrito */
 .header-links{
+    color: white;
     text-decoration: none;
     margin-left: 20px;
 }
 
 /* Menú principal */
 .menu-principal{
-    background-color: darkblue;
+    background-color: #1D3557;
     padding: 1px;
     text-align: center;
     position: sticky;
@@ -69,9 +73,13 @@ header form{
     text-decoration: none;
 }
 
+.menu-principal a:hover{
+    color: #F4A261;
+}
+
 /* Propiedades del banner */
 .banner{
-    background-color: lightyellow;
+    background-color: #FFF8E7;
     padding: 20px;
     text-align: center;
 }
@@ -92,7 +100,7 @@ header form{
 
 /* Apartado de promociones */
 .promociones{
-    background-color: lightgray;
+    background-color: #EAF4F4;
     padding: 20px;
     text-align: center;
 }
@@ -109,16 +117,16 @@ header form{
     display: inline-block;
     margin: 15px;
     padding: 15px;
-    border: 2px solid black;
+    border: 1px solid #D9D9D9;
     vertical-align: top;
     box-sizing: border-box;
     border-radius: 10px;
-    box-shadow: 2px 2px gray;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
 }
 
 /* Productos destacados */
 .productos-destacados{
-    background-color: white;
+    background-color: #FDFDFD;
     padding: 25px;
     text-align: center;
 }
@@ -130,14 +138,19 @@ header form{
 .producto-destacado{
     width: 180px;
     height: 320px;
-    border: 2px solid black;
+    border: 1px solid #D9D9D9;
     display: inline-block;
     margin: 10px;
     padding: 10px;
     vertical-align: top;
     border-radius: 10px;
-    box-shadow: 2px 2px gray;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
     box-sizing: border-box;
+    transition: 0.3s;
+}
+
+.producto-destacado:hover{
+    transform: scale(1.03);
 }
 
 .producto-destacado img{
@@ -150,7 +163,8 @@ header form{
 /* Pie de página */
 
 .pie-pagina{
-    background-color: lightblue;
+    background-color: #2D6A8E;
+    color: white;
     padding: 25px;
     margin-top: 10px;
     text-align: center;
@@ -167,7 +181,7 @@ header form{
 
 .footer-links a{
     text-decoration: none;
-    color: black;
+    color: white;
     margin: 18px;
     font-weight: bold;
 }
@@ -216,11 +230,6 @@ header form{
     height: 120px;
 }
 
-/* Contenedor de botones */
-.contenedor-botones{
-    text-align: center;
-}
-
 /*Contenedor de botones */
 .contenedor-botones{
     text-align: center;
@@ -238,10 +247,15 @@ header form{
 
 /* Botón enviar */
 .boton-enviar{
-    background-color: darkblue;
+    background-color: #F4A261;
 }
 
 /* Botón borrar */
 .boton-borrar{
     background-color: crimson;
+}
+
+.formulario-contacto button:hover{
+    opacity: 0.9;
+    cursor: pointer;
 }
