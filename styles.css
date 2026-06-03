@@ -122,6 +122,7 @@ header form{
     box-sizing: border-box;
     border-radius: 10px;
     box-shadow: 0px 3px 10px rgba(0,0,0,0.15);
+    cursor: pointer;
 }
 
 /* Productos destacados */
@@ -129,6 +130,7 @@ header form{
     background-color: #FDFDFD;
     padding: 25px;
     text-align: center;
+    cursor: pointer;
 }
 
 .productos-destacados h2{
